@@ -1,6 +1,1 @@
-{
-    "tenant_slugs": [
-        "demo2",
-        "badwolf"
-      ]
-}
+{ "tenant_slugs": ["badwolf","barkinggood","demo2"] }
