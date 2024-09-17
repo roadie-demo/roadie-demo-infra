@@ -1,0 +1,16 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadie-demo-infra
+  description: |
+    A collection of terraform projects that maintain the roadie-demo inf
+  annotations:
+    github.com/project-slug: roadie-demo/roadie-demo-infra
+    backstage.io/techdocs-ref: url:https://github.com/roadie-demo/roadie-demo-infra/tree/main
+  tags:
+    - infrastructure
+spec:
+  type: library
+  owner: group:roadie-demo/solutions
+  lifecycle: production
